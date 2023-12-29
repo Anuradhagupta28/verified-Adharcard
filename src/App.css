@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+.responsiveImage {
+  max-width: 100%; 
+  height: auto; 
+}
+
+@media screen and (max-width: 768px) {
+  .responsiveImage {
+   
+    max-width: 100%;
+    height: auto;
+  }
+}
